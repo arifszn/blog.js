@@ -57,7 +57,7 @@ const formatDevtoArticle = (article) => {
 }
 
 /**
- * Ellipsis long test
+ * Ellipsis long text
  * 
  * @param {string} str 
  * @param {number} length 
