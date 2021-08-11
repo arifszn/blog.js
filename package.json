@@ -1,0 +1,35 @@
+{
+    "name": "article-js",
+    "version": "1.0.0",
+    "description": "Api client for medium and dev.to to fetch most recent articles",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/arifszn/article-js#readme",
+    "keywords": [
+        "medium",
+        "dev.to",
+        "medium api",
+        "dev.to api",
+        "medium article",
+        "dev.to article",
+        "blog article",
+        "blog post",
+        "blog api",
+        "blog article api",
+        "blog post api",
+        "recent articles",
+        "article api"
+    ],
+    "license": "MIT",
+    "author": "arifszn",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arifszn/article-js.git"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "string-strip-html": "^8.3.0"
+    }
+}
