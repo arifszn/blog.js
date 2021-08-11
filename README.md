@@ -23,7 +23,7 @@ yarn add article-js
 ## Usage
 
 <details>
-<summary>getDevtoArticle</summary>
+<summary>getDevtoArticle()</summary>
 
 ```js
 const { getDevtoArticle } = require("article-js");
@@ -38,7 +38,7 @@ getDevtoArticle({
 </details>
 
 <details>
-<summary>getMediumArticle</summary>
+<summary>getMediumArticle()</summary>
 
 ```js
 const { getMediumArticle } = require("article-js");
@@ -55,7 +55,10 @@ getMediumArticle({
 
 ## Result
 
-The functions are asynchronous and return array.
+
+<details>
+<summary>Sample Response</summary>
+
 ```
 [
   {
@@ -65,9 +68,11 @@ The functions are asynchronous and return array.
     link: "https://medium.com/p/ac19dd21c728",
     categories: ["vr", "technology", "virtual-reality", "engineering", "artificial-intelligence"],
     publishedAt: Wed Aug 11 2021 18:43:34 GMT+0600
-  } 
+  }
 ]
 ```
+
+</details>
 
 
 ## Contribute
