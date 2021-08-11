@@ -31,7 +31,7 @@ const formatMediumArticle = (article) => {
                 "xml",
                 "figure",
             ],
-        }).result.trim()),
+        }).result.replace("\n", "").trim()),
         thumbnail: article.thumbnail,
         link: article.guid,
         categories: article.categories,
@@ -48,7 +48,7 @@ const formatMediumArticle = (article) => {
 const formatDevtoArticle = (article) => {
     return {
         title: article.title.trim(),
-        description: article.description.trim(),
+        description: article.description.replace("\n", "").trim(),
         thumbnail: article.social_image ? article.social_image : article.cover_image,
         link: article.url,
         categories: article.tag_list,
