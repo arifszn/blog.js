@@ -1,5 +1,5 @@
 <h1 align="center">Article-js</h1>
-<p align="center">Api client for dev.to and medium to fetch most recent articles.</p>
+<p align="center">Api client for dev.to and medium to fetch recent articles.</p>
 
 <br/>
 <br/>
