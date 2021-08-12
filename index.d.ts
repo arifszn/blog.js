@@ -1,6 +1,6 @@
 // Type definitions for article-api
 // Project https://github.com/arifszn/article-api
-// Author: Ariful Alam <arifulalamszn@gmail.com>
+// Author: MD. Ariful Alam <arifulalamszn@gmail.com>
 
 interface options {
     /**

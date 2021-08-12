@@ -4,6 +4,9 @@
     <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
     <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
 </p>
+<p align="center">
+    Api client for dev.to and medium to fetch recent articles
+</p>
 
 <br/>
 <br/>
