@@ -1,5 +1,5 @@
 <h1 align="center">Article-api</h1>
-<p align="center">Api client for dev.to and medium to fetch recent articles</p>
+<p align="center">Api client to fetch recent articles from dev.to and medium</p>
 
 <p align="center">
     <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>

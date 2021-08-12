@@ -1,7 +1,7 @@
 {
     "name": "article-api",
-    "version": "1.0.0",
-    "description": "Api client for dev.to and medium to fetch most recent articles",
+    "version": "1.0.1",
+    "description": "Api client to fetch recent articles from dev.to and medium",
     "main": "index.js",
     "typings": "./index.d.ts",
     "scripts": {
