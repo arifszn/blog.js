@@ -1,10 +1,10 @@
 <h1 align="center">Article-api</h1>
-<p align="center">Api client for dev.to and medium to fetch recent articles.</p>
+<p align="center">Api client for dev.to and medium to fetch recent articles</p>
 
 <br/>
 <br/>
 
-<p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio and blog site.</p>
+<p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio or blog site.</p>
 
 
 # Installation
