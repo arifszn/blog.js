@@ -1,4 +1,4 @@
-<h1 align="center">Article-js</h1>
+<h1 align="center">Article-api</h1>
 <p align="center">Api client for dev.to and medium to fetch recent articles.</p>
 
 <br/>
@@ -9,14 +9,14 @@
 
 # Installation
 
-Install via <a href="https://www.npmjs.com/package/article-js">NPM</a>
+Install via <a href="https://www.npmjs.com/package/article-api">NPM</a>
 ```
-npm install article-js
+npm install article-api
 ```
 
-Install via <a href="https://yarnpkg.com/package/article-js">Yarn</a>
+Install via <a href="https://yarnpkg.com/package/article-api">Yarn</a>
 ```
-yarn add article-js
+yarn add article-api
 ```
 
 
@@ -26,7 +26,7 @@ yarn add article-js
 <summary>getDevtoArticle()</summary>
 
 ```js
-const { getDevtoArticle } = require("article-js");
+const { getDevtoArticle } = require("article-api");
 
 getDevtoArticle({
     user: 'yourusername'
@@ -41,7 +41,7 @@ getDevtoArticle({
 <summary>getMediumArticle()</summary>
 
 ```js
-const { getMediumArticle } = require("article-js");
+const { getMediumArticle } = require("article-api");
 
 getMediumArticle({
     user: 'yourusername'
@@ -61,14 +61,22 @@ getMediumArticle({
 
 ```
 [
-  {
-    title: "Why Enhancing Virtual Reality is Important",
-    description: "Virtual reality is seen as a “fun” technology to some without much...",
-    thumbnail: "https://cdn-images-1.medium.com/max/2600/0*kz30LOdXT8CyOymh",
-    link: "https://medium.com/p/ac19dd21c728",
-    categories: ["vr", "technology", "virtual-reality", "engineering", "artificial-intelligence"],
-    publishedAt: Wed Aug 11 2021 18:43:34 GMT+0600
-  }
+    {
+        title: "Why Enhancing Virtual Reality is Important",
+        description: "Virtual reality is seen as a “fun” technology to some without much...",
+        thumbnail: "https://cdn-images-1.medium.com/max/2600/0*kz30LOdXT8CyOymh",
+        link: "https://medium.com/p/ac19dd21c728",
+        categories: ["vr", "technology", "virtual-reality", "engineering", "artificial-intelligence"],
+        publishedAt: Wed Aug 11 2021 18:43:34 GMT+0600
+    },
+    {
+        title: "How to Get Started With Data Science: a Brief Guide",
+        description: "You’ve heard about data science and machine learning, and you want to get started. Maybe you hear...",
+        thumbnail: "https://cdn-images-1.medium.com/max/2600/0*Ah0vLtsvxqUvRWuS",
+        link: "https://medium.com/p/88ec244f2fee",
+        categories: ["towards-data-science", "beginner-data-science", "beginner-coding", "data-science-training", "machine-learning-course"],
+        publishedAt: Mon Jul 26 2021 22:55:26 GMT+0600
+    }
 ]
 ```
 
@@ -82,12 +90,12 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
 
 ## Thank You
 
-[![Stargazers repo roster for @arifszn/article-js](https://reporoster.com/stars/arifszn/article-js)](https://github.com/arifszn/article-js/stargazers)
-[![Forkers repo roster for @arifszn/article-js](https://reporoster.com/forks/arifszn/article-js)](https://github.com/arifszn/article-js/network/members)
+[![Stargazers repo roster for @arifszn/article-api](https://reporoster.com/stars/arifszn/article-api)](https://github.com/arifszn/article-api/stargazers)
+
 
 ## Support
 
-Show your ❤️ and support by giving a <a href="https://github.com/arifszn/article-js">star</a>.
+Show your ❤️ and support by giving a <a href="https://github.com/arifszn/article-api">star</a>.
 
 
 ## License

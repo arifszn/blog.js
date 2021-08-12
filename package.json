@@ -1,5 +1,5 @@
 {
-    "name": "article-js",
+    "name": "article-api",
     "version": "1.0.0",
     "description": "Api client for dev.to and medium to fetch most recent articles",
     "main": "index.js",
@@ -7,7 +7,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "homepage": "https://github.com/arifszn/article-js#readme",
+    "homepage": "https://github.com/arifszn/article-api#readme",
     "keywords": [
         "medium",
         "dev.to",
@@ -30,7 +30,7 @@
     "author": "arifszn",
     "repository": {
         "type": "git",
-        "url": "https://github.com/arifszn/article-js.git"
+        "url": "https://github.com/arifszn/article-api.git"
     },
     "dependencies": {
         "axios": "^0.21.1",
