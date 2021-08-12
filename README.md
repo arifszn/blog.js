@@ -3,7 +3,6 @@
 
 <p align="center">
     <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
-    <img src="https://img.shields.io/bundlephobia/min/article-api"/>
     <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
 </p>
 
