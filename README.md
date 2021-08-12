@@ -1,6 +1,12 @@
 <h1 align="center">Article-api</h1>
 <p align="center">Api client for dev.to and medium to fetch recent articles</p>
 
+<p align="center">
+    <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
+    <img src="https://img.shields.io/bundlephobia/min/article-api"/>
+    <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
+</p>
+
 <br/>
 <br/>
 
@@ -71,10 +77,10 @@ getMediumArticle({
     },
     {
         title: "How to Get Started With Data Science: a Brief Guide",
-        description: "You’ve heard about data science and machine learning, and you want to get started. Maybe you hear...",
+        description: "You’ve heard about data science and machine learning, and you want to get...",
         thumbnail: "https://cdn-images-1.medium.com/max/2600/0*Ah0vLtsvxqUvRWuS",
         link: "https://medium.com/p/88ec244f2fee",
-        categories: ["towards-data-science", "beginner-data-science", "beginner-coding", "data-science-training", "machine-learning-course"],
+        categories: ["towards-data-science", "beginner-data-science", "beginner-coding"],
         publishedAt: Mon Jul 26 2021 22:55:26 GMT+0600
     }
 ]
