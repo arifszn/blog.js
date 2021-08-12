@@ -9,12 +9,11 @@
 </p>
 
 <br/>
-<br/>
 
 <p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio or blog site.</p>
 
 
-# Installation
+## Installation
 
 Install via <a href="https://www.npmjs.com/package/article-api">NPM</a>
 ```
@@ -41,7 +40,6 @@ getDevtoArticle({
     console.log(res);
 })
 ```
-
 </details>
 
 <details>
@@ -56,12 +54,10 @@ getMediumArticle({
     console.log(res);
 })
 ```
-
 </details>
 
 
 ## Result
-
 
 <details>
 <summary>Sample Response</summary>
@@ -86,7 +82,6 @@ getMediumArticle({
     }
 ]
 ```
-
 </details>
 
 
@@ -102,7 +97,7 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
 
 ## Support
 
-Show your ❤️ and support by giving a <a href="https://github.com/arifszn/article-api">star</a>.
+Show your ❤️ and support by giving a star.
 
 
 ## License
