@@ -11,6 +11,8 @@
 
 <p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio or blog site.</p>
 
+> PHP version: <a href="https://github.com/arifszn/article-api-php">Article-api</a>
+
 
 ## Installation
 
@@ -100,7 +102,7 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
 
 ## Support
 
-Show your ❤️ and support by giving a <a href="https://github.com/arifszn/article-api">star</a>.
+Show your ❤️ and support by giving a star.
 
 
 ## License
