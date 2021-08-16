@@ -1,6 +1,11 @@
 <h1 align="center">Article-api</h1>
 <p align="center">Api client for dev.to and medium to fetch recent articles</p>
 
+<p align="center">
+    <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
+    <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
+</p>
+
 <br/>
 <br/>
 
