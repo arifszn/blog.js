@@ -1,13 +1,7 @@
 <h1 align="center">Article-api</h1>
-<p align="center">
-    Api client for dev.to and medium to fetch recent articles
-</p>
+<p align="center">Api client for dev.to and medium to fetch recent articles</p>
 
-<p align="center">
-    <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
-    <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
-</p>
-
+<br/>
 <br/>
 
 <p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio or blog site.</p>
@@ -40,6 +34,7 @@ getDevtoArticle({
     console.log(res);
 })
 ```
+
 </details>
 
 <details>
@@ -54,10 +49,12 @@ getMediumArticle({
     console.log(res);
 })
 ```
+
 </details>
 
 
 ## Result
+
 
 <details>
 <summary>Sample Response</summary>
@@ -74,14 +71,15 @@ getMediumArticle({
     },
     {
         title: "How to Get Started With Data Science: a Brief Guide",
-        description: "You’ve heard about data science and machine learning, and you want to get...",
+        description: "You’ve heard about data science and machine learning, and you want to get started. Maybe you hear...",
         thumbnail: "https://cdn-images-1.medium.com/max/2600/0*Ah0vLtsvxqUvRWuS",
         link: "https://medium.com/p/88ec244f2fee",
-        categories: ["towards-data-science", "beginner-data-science", "beginner-coding"],
+        categories: ["beginner-coding", "data-science-training", "machine-learning-course"],
         publishedAt: Mon Jul 26 2021 22:55:26 GMT+0600
     }
 ]
 ```
+
 </details>
 
 
@@ -97,7 +95,7 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
 
 ## Support
 
-Show your ❤️ and support by giving a star.
+Show your ❤️ and support by giving a <a href="https://github.com/arifszn/article-api">star</a>.
 
 
 ## License
