@@ -1,6 +1,6 @@
 {
     "name": "article-api",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Api client for dev.to and medium to fetch recent articles",
     "main": "index.js",
     "typings": "./index.d.ts",
