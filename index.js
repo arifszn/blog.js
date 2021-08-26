@@ -32,7 +32,7 @@ module.exports = {
         try {
             if (!user) return [];
             
-            let response = await request(`https://dev.to/api/articles?username=${user}&per_page=10`);
+            let response = await request(`https://dev.to/api/articles?per_page=10&username=${user}`);
 
             return response.data.map(item => formatDevtoArticle(item));
         } catch (error) {
