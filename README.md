@@ -102,7 +102,7 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
 
 ## Support
 
-Show your ❤️ and support by giving a star.
+Show your ❤️ and support by giving a ⭐.
 
 
 ## License
