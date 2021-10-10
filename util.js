@@ -57,6 +57,30 @@ const formatDevtoArticle = (article) => {
 }
 
 /**
+ * Format raw hashnode article
+ * 
+ * @param {Object} article
+ * @return {Object} formatted article
+ */
+ const formatHashnodeArticle = (article) => {
+    return {
+        title: article.title.trim(),
+        description: textEllipsis(stripHtml(article.description, {
+            stripTogetherWithTheirContents: [
+                "script",
+                "style",
+                "xml",
+                "figure",
+            ],
+        }).result.replace("\n", "").trim()),
+        thumbnail: article.thumbnail,
+        link: article.link,
+        categories: article.categories,
+        publishedAt: new Date(article.pubDate)
+    };
+}
+
+/**
  * Ellipsis long text
  * 
  * @param {string} str 
@@ -75,3 +99,4 @@ const textEllipsis = (str, length = 100, ending = '...') => {
 module.exports.request = request;
 module.exports.formatMediumArticle = formatMediumArticle;
 module.exports.formatDevtoArticle = formatDevtoArticle;
+module.exports.formatHashnodeArticle = formatHashnodeArticle;

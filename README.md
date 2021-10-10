@@ -59,6 +59,21 @@ getMediumArticle({
 
 </details>
 
+<details>
+<summary>getHashnodeArticle()</summary>
+
+```js
+const { getHashnodeArticle } = require("article-api");
+
+getMediumArticle({
+    user: 'yourusername'
+}).then(res => {
+    console.log(res);
+})
+```
+
+</details>
+
 
 ## Result
 

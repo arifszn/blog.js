@@ -19,4 +19,9 @@ declare function getMediumArticle(options: options): Promise<R>;
  */
 declare function getDevtoArticle(options: options): Promise<R>;
 
-export { getMediumArticle, getDevtoArticle };
+/**
+ * Get most recent hashnode articles
+ */
+ declare function getHashnodeArticle(options: options): Promise<R>;
+
+export { getMediumArticle, getDevtoArticle, getHashnodeArticle };

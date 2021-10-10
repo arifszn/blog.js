@@ -1,4 +1,4 @@
-const { request, formatMediumArticle, formatDevtoArticle } = require("./util");
+const { request, formatMediumArticle, formatDevtoArticle, formatHashnodeArticle } = require("./util");
 
 module.exports = {
     /**
@@ -35,6 +35,25 @@ module.exports = {
             let response = await request(`https://dev.to/api/articles?per_page=10&username=${user}`);
 
             return response.data.map(item => formatDevtoArticle(item));
+        } catch (error) {
+            return [];
+        }
+    },
+    /**
+     * Get most recent dev.to articles
+     * 
+     * @param {Object} param
+     * @returns {Array} articles
+     */
+     getHasnodeArticle: async ({
+        user
+    }) => {
+        try {
+            if (!user) return [];
+            
+            let response = await request(`https://api.rss2json.com/v1/api.json?rss_url=https://hashnode.com/@${user}/rss.xml`);
+
+            return response.data.items.map(item => formatHashnodeArticle(item));
         } catch (error) {
             return [];
         }
