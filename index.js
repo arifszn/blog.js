@@ -40,7 +40,7 @@ module.exports = {
         }
     },
     /**
-     * Get most recent dev.to articles
+     * Get most recent hashnode articles
      * 
      * @param {Object} param
      * @returns {Array} articles
