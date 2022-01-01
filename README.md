@@ -1,3 +1,4 @@
+
 <h1 align="center">Article-api</h1>
 <p align="center">Api client for dev.to and medium to fetch recent articles</p>
 
@@ -29,42 +30,32 @@ yarn add article-api
 
 ## Usage
 
-<details>
-<summary>getDevtoArticle()</summary>
+- **getDevtoArticle()**: Get 10 recent articles from [dev.to](https://dev.to)
+    
+    ```js
+    const { getDevtoArticle } = require("article-api");
 
-```js
-const { getDevtoArticle } = require("article-api");
+    getDevtoArticle({
+        user: 'yourusername'
+    }).then(res => {
+        console.log(res);
+    })
+    ```
+    
+- **getMediumArticle()**: Get 10 recent articles from [medium](https://medium.com) 
 
-getDevtoArticle({
-    user: 'yourusername'
-}).then(res => {
-    console.log(res);
-})
-```
+    ```js
+    const { getMediumArticle } = require("article-api");
 
-</details>
-
-<details>
-<summary>getMediumArticle()</summary>
-
-```js
-const { getMediumArticle } = require("article-api");
-
-getMediumArticle({
-    user: 'yourusername'
-}).then(res => {
-    console.log(res);
-})
-```
-
-</details>
+    getMediumArticle({
+        user: 'yourusername'
+    }).then(res => {
+        console.log(res);
+    })
+    ```
 
 
-## Result
-
-
-<details>
-<summary>Sample Response</summary>
+## Sample Response
 
 ```
 [
@@ -86,8 +77,6 @@ getMediumArticle({
     }
 ]
 ```
-
-</details>
 
 
 ## Contribute
