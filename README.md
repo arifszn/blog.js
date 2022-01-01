@@ -57,7 +57,7 @@ yarn add article-api
 
 ## Sample Response
 
-```json
+```js
 [
     {
         title: "Why Enhancing Virtual Reality is Important",
@@ -96,4 +96,4 @@ Show your ❤️ and support by giving a ⭐.
 
 ## License
 
-**Article-api** is licensed under [MIT](https://github.com/arifszn/article-api/blob/main/LICENSE).
+**Article-api** is licensed under the [MIT License](https://github.com/arifszn/article-api/blob/main/LICENSE).
