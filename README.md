@@ -3,7 +3,13 @@
 
 <p align="center">
     <a href="https://www.npmjs.com/package/@arifszn/blog-js"><img src="https://img.shields.io/npm/v/@arifszn/blog-js"/></a>
+    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+    </a>
     <a href="https://github.com/arifszn/blog-js/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/blog-js"/></a>
+    <a href="https://twitter.com/intent/tweet?text=Api%20client%20to%20get%20recent%20blog%20posts%20from%20popular%20blogging%20platforms.&url=https://github.com/arifszn/blog-js&hashtags=javascript,opensource,js,webdev,developers">
+      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fblog-js"/>
+    </a>
 </p>
 
 <br/>
@@ -29,7 +35,7 @@ yarn add @arifszn/blog-js
 
 ## Usage
 
-- **getDevPost()**: Get 10 recent posts from [dev](https://dev.to)
+- **`getDevPost()`**: Get 10 recent posts from [dev](https://dev.to)
 
   ```js
   const { getDevPost } = require('@arifszn/blog-js');
@@ -41,7 +47,7 @@ yarn add @arifszn/blog-js
   });
   ```
 
-- **getMediumPost()**: Get 10 recent posts from [medium](https://medium.com)
+- ** getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com)
 
   ```js
   const { getMediumPost } = require('@arifszn/blog-js');
