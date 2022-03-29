@@ -6,7 +6,11 @@
   "module": "./dist/index.esm.js",
   "typings": "./types/index.d.ts",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx --fix .",
+    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'"
   },
   "license": "MIT",
   "author": "arifszn",
