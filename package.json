@@ -2,11 +2,8 @@
   "name": "@arifszn/blog-js",
   "version": "2.0.0",
   "description": "Api client to get recent blog posts from popular blogging platforms",
-  "main": "index.js",
-  "typings": "./index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "./src/index.js",
+  "typings": "./types/index.d.ts",
   "keywords": [
     "medium",
     "dev.to",
@@ -37,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/arifszn/blog-js/issues"
   },
-  "dependencies": {
+  "devDependencies": {
     "axios": "^0.21.1",
     "string-strip-html": "^8.3.0"
   }
