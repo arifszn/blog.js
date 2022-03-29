@@ -1,22 +1,22 @@
-// Type definitions for article-api
-// Project https://github.com/arifszn/article-api
-// Author: MD. Ariful Alam <arifulalamszn@gmail.com>
+// Type definitions for blog-js
+// Project https://github.com/arifszn/blog-js
+// Author: Ariful Alam <arifulalamszn@gmail.com>
 
 interface options {
-    /**
-     * Username
-     */
-    user: string;
+  /**
+   * Username
+   */
+  user: string;
 }
 
 /**
- * Get most recent medium articles
+ * Get most recent medium posts
  */
-declare function getMediumArticle(options: options): Promise<R>;
+declare function getMediumPost(options: options): Promise<R>;
 
 /**
- * Get most recent dev.to articles
+ * Get most recent dev.to posts
  */
-declare function getDevtoArticle(options: options): Promise<R>;
+declare function getDevtoPost(options: options): Promise<R>;
 
-export { getMediumArticle, getDevtoArticle };
+export { getMediumPost, getDevtoPost };
