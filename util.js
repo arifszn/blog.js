@@ -39,12 +39,12 @@ const formatMediumPost = (post) => {
 };
 
 /**
- * Format raw dev.to post
+ * Format raw dev post
  *
  * @param {Object} post
  * @return {Object} formatted post
  */
-const formatDevtoPost = (post) => {
+const formatDevPost = (post) => {
   return {
     title: post.title.trim(),
     description: post.description.replace('\n', '').trim(),
@@ -73,4 +73,4 @@ const textEllipsis = (str, length = 100, ending = '...') => {
 
 module.exports.request = request;
 module.exports.formatMediumPost = formatMediumPost;
-module.exports.formatDevtoPost = formatDevtoPost;
+module.exports.formatDevPost = formatDevPost;

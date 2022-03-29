@@ -15,8 +15,8 @@ interface options {
 declare function getMediumPost(options: options): Promise<R>;
 
 /**
- * Get most recent dev.to posts
+ * Get most recent dev posts
  */
-declare function getDevtoPost(options: options): Promise<R>;
+declare function getDevPost(options: options): Promise<R>;
 
-export { getMediumPost, getDevtoPost };
+export { getMediumPost, getDevPost };
