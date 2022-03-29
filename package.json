@@ -1,39 +1,44 @@
 {
-    "name": "article-api",
-    "version": "1.0.8",
-    "description": "Api client for dev.to and medium to fetch recent articles",
-    "main": "index.js",
-    "typings": "./index.d.ts",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "homepage": "https://github.com/arifszn/article-api#readme",
-    "keywords": [
-        "medium",
-        "dev.to",
-        "devto",
-        "medium api",
-        "dev.to api",
-        "medium article",
-        "dev.to article",
-        "medium-article",
-        "dev.to-article",
-        "blog article",
-        "blog post",
-        "blog api",
-        "blog article api",
-        "blog post api",
-        "recent articles",
-        "article api"
-    ],
-    "license": "MIT",
-    "author": "arifszn",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/arifszn/article-api.git"
-    },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "string-strip-html": "^8.3.0"
-    }
+  "name": "@arifszn/blog-js",
+  "version": "2.0.0",
+  "description": "Api client to get recent blog posts from popular blogging platforms",
+  "main": "index.js",
+  "typings": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "medium",
+    "dev.to",
+    "dev",
+    "devto",
+    "medium api",
+    "dev.to api",
+    "medium article",
+    "medium blog",
+    "dev.to article",
+    "medium-article",
+    "dev.to-article",
+    "dev.to-blog",
+    "blog article",
+    "blog post",
+    "blog api",
+    "blog article api",
+    "blog post api",
+    "recent articles",
+    "article api"
+  ],
+  "license": "MIT",
+  "author": "arifszn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifszn/blog-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arifszn/blog-js/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "string-strip-html": "^8.3.0"
+  }
 }

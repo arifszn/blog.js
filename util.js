@@ -3,75 +3,74 @@ const { stripHtml } = require('string-strip-html');
 
 /**
  * Make a get request
- * 
+ *
  * @param {String} url
  * @return Axios response object
  */
 const request = async (url) => {
-    try {
-        return axios.get(url);
-    } catch (error) {
-        throw Error(error);
-    }
-}
+  try {
+    return axios.get(url);
+  } catch (error) {
+    throw Error(error);
+  }
+};
 
 /**
- * Format raw medium article
- * 
- * @param {Object} article
- * @return {Object} formatted article
+ * Format raw medium post
+ *
+ * @param {Object} post
+ * @return {Object} formatted post
  */
-const formatMediumArticle = (article) => {
-    return {
-        title: article.title.trim(),
-        description: textEllipsis(stripHtml(article.content, {
-            stripTogetherWithTheirContents: [
-                "script",
-                "style",
-                "xml",
-                "figure",
-            ],
-        }).result.replace("\n", "").trim()),
-        thumbnail: article.thumbnail,
-        link: article.guid,
-        categories: article.categories,
-        publishedAt: new Date(article.pubDate)
-    };
-}
+const formatMediumPost = (post) => {
+  return {
+    title: post.title.trim(),
+    description: textEllipsis(
+      stripHtml(post.content, {
+        stripTogetherWithTheirContents: ['script', 'style', 'xml', 'figure'],
+      })
+        .result.replace('\n', '')
+        .trim()
+    ),
+    thumbnail: post.thumbnail,
+    link: post.guid,
+    categories: post.categories,
+    publishedAt: new Date(post.pubDate),
+  };
+};
 
 /**
- * Format raw dev.to article
- * 
- * @param {Object} article
- * @return {Object} formatted article
+ * Format raw dev.to post
+ *
+ * @param {Object} post
+ * @return {Object} formatted post
  */
-const formatDevtoArticle = (article) => {
-    return {
-        title: article.title.trim(),
-        description: article.description.replace("\n", "").trim(),
-        thumbnail: article.social_image ? article.social_image : article.cover_image,
-        link: article.url,
-        categories: article.tag_list,
-        publishedAt: new Date(article.published_at)
-    };
-}
+const formatDevtoPost = (post) => {
+  return {
+    title: post.title.trim(),
+    description: post.description.replace('\n', '').trim(),
+    thumbnail: post.social_image ? post.social_image : post.cover_image,
+    link: post.url,
+    categories: post.tag_list,
+    publishedAt: new Date(post.published_at),
+  };
+};
 
 /**
  * Ellipsis long text
- * 
- * @param {string} str 
- * @param {number} length 
+ *
+ * @param {string} str
+ * @param {number} length
  * @param {string} ending
  * @return {string} ellipsized string
  */
 const textEllipsis = (str, length = 100, ending = '...') => {
-    if (str.length > length) {
-        return str.substring(0, length - ending.length) + ending;
-    } else {
-        return str;
-    }
+  if (str.length > length) {
+    return str.substring(0, length - ending.length) + ending;
+  } else {
+    return str;
+  }
 };
 
 module.exports.request = request;
-module.exports.formatMediumArticle = formatMediumArticle;
-module.exports.formatDevtoArticle = formatDevtoArticle;
+module.exports.formatMediumPost = formatMediumPost;
+module.exports.formatDevtoPost = formatDevtoPost;
