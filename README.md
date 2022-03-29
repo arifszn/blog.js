@@ -29,12 +29,12 @@ yarn add @arifszn/blog-js
 
 ## Usage
 
-- **getDevtoPost()**: Get 10 recent posts from [dev.to](https://dev.to)
+- **getDevPost()**: Get 10 recent posts from [dev](https://dev.to)
 
   ```js
-  const { getDevtoPost } = require('@arifszn/blog-js');
+  const { getDevPost } = require('@arifszn/blog-js');
 
-  getDevtoPost({
+  getDevPost({
     user: 'yourusername',
   }).then((res) => {
     console.log(res);
