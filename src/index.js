@@ -1,4 +1,4 @@
-const { request, formatMediumPost, formatDevPost } = require('./util');
+const { request, formatMediumPost, formatDevPost } = require('./utils');
 
 module.exports = {
   /**
