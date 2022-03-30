@@ -47,7 +47,7 @@ yarn add @arifszn/blog-js
   });
   ```
 
-- ** getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com)
+- **`getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com)
 
   ```js
   const { getMediumPost } = require('@arifszn/blog-js');
