@@ -17,7 +17,7 @@
 
 <p>Get recent blog posts from popular blogging platforms by just providing your username and showcase them on your portfolio or blog site.</p>
 
-> PHP version: <a href="https://github.com/arifszn/blog-js-php">Blog-js</a>
+Try it **[online](https://stackblitz.com/edit/blog-js-online?file=index.js)**.
 
 ## Installation
 
@@ -35,7 +35,7 @@ yarn add @arifszn/blog-js
 
 ## Usage
 
-- **`getDevPost()`**: Get 10 recent posts from [dev](https://dev.to)
+- **`getDevPost()`**: Get 10 recent posts from [dev](https://dev.to).
 
   ```js
   const { getDevPost } = require('@arifszn/blog-js');
@@ -47,7 +47,7 @@ yarn add @arifszn/blog-js
   });
   ```
 
-- **`getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com)
+- **`getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com).
 
   ```js
   const { getMediumPost } = require('@arifszn/blog-js');
