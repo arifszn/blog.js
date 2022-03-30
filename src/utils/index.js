@@ -70,3 +70,9 @@ const textEllipsis = (str, length = 100, ending = '...') => {
     return str;
   }
 };
+
+module.exports = {
+  request: request,
+  formatMediumPost: formatMediumPost,
+  formatDevPost: formatDevPost,
+};
