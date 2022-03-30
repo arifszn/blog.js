@@ -1,39 +1,60 @@
 {
-    "name": "article-api",
-    "version": "1.0.8",
-    "description": "Api client for dev.to and medium to fetch recent articles",
-    "main": "index.js",
-    "typings": "./index.d.ts",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "homepage": "https://github.com/arifszn/article-api#readme",
-    "keywords": [
-        "medium",
-        "dev.to",
-        "devto",
-        "medium api",
-        "dev.to api",
-        "medium article",
-        "dev.to article",
-        "medium-article",
-        "dev.to-article",
-        "blog article",
-        "blog post",
-        "blog api",
-        "blog article api",
-        "blog post api",
-        "recent articles",
-        "article api"
-    ],
-    "license": "MIT",
-    "author": "arifszn",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/arifszn/article-api.git"
-    },
-    "dependencies": {
-        "axios": "^0.21.1",
-        "string-strip-html": "^8.3.0"
-    }
+  "name": "@arifszn/blog-js",
+  "version": "2.0.0",
+  "description": "Api client to get recent blog posts from popular blogging platforms",
+  "main": "./src/index.js",
+  "typings": "./types/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --ext .js,.jsx --fix .",
+    "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
+    "prettier:fix": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}'"
+  },
+  "license": "MIT",
+  "author": "arifszn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifszn/blog-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arifszn/blog-js/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "string-strip-html": "^8.3.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "keywords": [
+    "medium",
+    "dev.to",
+    "dev",
+    "devto",
+    "medium api",
+    "dev.to api",
+    "medium article",
+    "medium blog",
+    "dev.to article",
+    "medium-article",
+    "dev.to-article",
+    "dev.to-blog",
+    "blog article",
+    "blog post",
+    "blog api",
+    "blog article api",
+    "blog post api",
+    "recent articles",
+    "article api"
+  ]
 }

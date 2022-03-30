@@ -1,59 +1,63 @@
-
-<h1 align="center">Article-api</h1>
-<p align="center">Api client for dev.to and medium to fetch recent articles</p>
+<h1 align="center">Blog-js</h1>
+<p align="center">Api client to get recent blog posts from popular blogging platforms</p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/article-api"><img src="https://img.shields.io/npm/v/article-api"/></a>
-    <a href="https://github.com/arifszn/article-api/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/article-api"/></a>
+    <a href="https://www.npmjs.com/package/@arifszn/blog-js"><img src="https://img.shields.io/npm/v/@arifszn/blog-js"/></a>
+    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
+      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
+    </a>
+    <a href="https://github.com/arifszn/blog-js/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/blog-js"/></a>
+    <a href="https://twitter.com/intent/tweet?text=Api%20client%20to%20get%20recent%20blog%20posts%20from%20popular%20blogging%20platforms.&url=https://github.com/arifszn/blog-js&hashtags=javascript,opensource,js,webdev,developers">
+      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fblog-js"/>
+    </a>
 </p>
 
 <br/>
 <br/>
 
-<p>Get recent articles from dev.to and medium by just providing your username and showcase them on your portfolio or blog site.</p>
+<p>Get recent blog posts from popular blogging platforms by just providing your username and showcase them on your portfolio or blog site.</p>
 
-> PHP version: <a href="https://github.com/arifszn/article-api-php">Article-api</a>
-
+> PHP version: <a href="https://github.com/arifszn/blog-js-php">Blog-js</a>
 
 ## Installation
 
-Install via <a href="https://www.npmjs.com/package/article-api">NPM</a>
+Install via <a href="https://www.npmjs.com/package/@arifszn/blog-js">NPM</a>
+
 ```
-npm install article-api
+npm install @arifszn/blog-js
 ```
 
-Install via <a href="https://yarnpkg.com/package/article-api">Yarn</a>
-```
-yarn add article-api
-```
+Or install via <a href="https://yarnpkg.com/package/@arifszn/blog-js">Yarn</a>
 
+```
+yarn add @arifszn/blog-js
+```
 
 ## Usage
 
-- **getDevtoArticle()**: Get 10 recent articles from [dev.to](https://dev.to)
-    
-    ```js
-    const { getDevtoArticle } = require("article-api");
+- **`getDevPost()`**: Get 10 recent posts from [dev](https://dev.to)
 
-    getDevtoArticle({
-        user: 'yourusername'
-    }).then(res => {
-        console.log(res);
-    })
-    ```
-    
-- **getMediumArticle()**: Get 10 recent articles from [medium](https://medium.com) 
+  ```js
+  const { getDevPost } = require('@arifszn/blog-js');
 
-    ```js
-    const { getMediumArticle } = require("article-api");
+  getDevPost({
+    user: 'yourusername',
+  }).then((res) => {
+    console.log(res);
+  });
+  ```
 
-    getMediumArticle({
-        user: 'yourusername'
-    }).then(res => {
-        console.log(res);
-    })
-    ```
+- ** getMediumPost()`**: Get 10 recent posts from [medium](https://medium.com)
 
+  ```js
+  const { getMediumPost } = require('@arifszn/blog-js');
+
+  getMediumPost({
+    user: 'yourusername',
+  }).then((res) => {
+    console.log(res);
+  });
+  ```
 
 ## Sample Response
 
@@ -78,11 +82,9 @@ yarn add article-api
 ]
 ```
 
-
 ## Contribute
 
-To contribute, clone this repo locally and commit your code on a new branch. Feel free to create an issue or make a pull request.
-
+To contribute, see the [Contributing guide](https://github.com/arifszn/blog-js/blob/main/CONTRIBUTING.md).
 
 ## Support
 
@@ -90,7 +92,6 @@ To contribute, clone this repo locally and commit your code on a new branch. Fee
   <img src="https://raw.githubusercontent.com/arifszn/arifszn/main/assets/bmc-button.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
 </a>
 
-
 ## License
 
-**Article-api** is licensed under the [MIT License](https://github.com/arifszn/article-api/blob/main/LICENSE).
+**Blog-js** is licensed under the [MIT License](https://github.com/arifszn/blog-js/blob/main/LICENSE).
