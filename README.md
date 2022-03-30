@@ -84,7 +84,7 @@ yarn add @arifszn/blog-js
 
 ## Contribute
 
-To contribute, clone this repo locally and commit your code on a new branch. Feel free to create an issue or make a pull request.
+To contribute, see the [Contributing guide](https://github.com/arifszn/blog-js/blob/main/CONTRIBUTING.md).
 
 ## Support
 
