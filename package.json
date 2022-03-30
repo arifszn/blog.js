@@ -2,8 +2,7 @@
   "name": "@arifszn/blog-js",
   "version": "2.0.0",
   "description": "Api client to get recent blog posts from popular blogging platforms",
-  "main": "./dist/index.cjs.js",
-  "module": "./dist/index.esm.js",
+  "main": "./src/index.js",
   "typings": "./types/index.d.ts",
   "scripts": {
     "build": "rollup -c",

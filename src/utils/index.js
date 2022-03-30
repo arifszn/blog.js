@@ -7,7 +7,7 @@ const { stripHtml } = require('string-strip-html');
  * @param {String} url
  * @return Axios response object
  */
-export const request = async (url) => {
+const request = async (url) => {
   try {
     return axios.get(url);
   } catch (error) {
@@ -21,7 +21,7 @@ export const request = async (url) => {
  * @param {Object} post
  * @return {Object} formatted post
  */
-export const formatMediumPost = (post) => {
+const formatMediumPost = (post) => {
   return {
     title: post.title.trim(),
     description: textEllipsis(
@@ -44,7 +44,7 @@ export const formatMediumPost = (post) => {
  * @param {Object} post
  * @return {Object} formatted post
  */
-export const formatDevPost = (post) => {
+const formatDevPost = (post) => {
   return {
     title: post.title.trim(),
     description: post.description.replace('\n', '').trim(),

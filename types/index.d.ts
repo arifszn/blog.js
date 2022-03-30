@@ -12,11 +12,11 @@ interface options {
 /**
  * Get most recent medium posts
  */
-declare function getMediumPost(options: options): Promise;
+declare function getMediumPost(options: options): Promise<any>;
 
 /**
  * Get most recent dev posts
  */
-declare function getDevPost(options: options): Promise;
+declare function getDevPost(options: options): Promise<any>;
 
 export { getMediumPost, getDevPost };
