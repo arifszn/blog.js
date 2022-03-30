@@ -2,9 +2,11 @@
   "name": "@arifszn/blog-js",
   "version": "2.0.0",
   "description": "Api client to get recent blog posts from popular blogging platforms",
-  "main": "./src/index.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
   "typings": "./types/index.d.ts",
   "scripts": {
+    "build": "rollup -c",
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
