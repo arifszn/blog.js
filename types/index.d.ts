@@ -1,5 +1,5 @@
-// Type definitions for blog-js
-// Project https://github.com/arifszn/blog-js
+// Type definitions for blog.js
+// Project https://github.com/arifszn/blog.js
 // Author: Ariful Alam <arifulalamszn@gmail.com>
 
 interface options {

@@ -1,4 +1,4 @@
-<h1 align="center">Blog-js</h1>
+<h1 align="center">blog.js</h1>
 <p align="center">Api client to get recent blog posts from popular blogging platforms</p>
 
 <p align="center">
@@ -6,9 +6,9 @@
     <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
     </a>
-    <a href="https://github.com/arifszn/blog-js/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/blog-js"/></a>
-    <a href="https://twitter.com/intent/tweet?text=Api%20client%20to%20get%20recent%20blog%20posts%20from%20popular%20blogging%20platforms.&url=https://github.com/arifszn/blog-js&hashtags=javascript,opensource,js,webdev,developers">
-      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fblog-js"/>
+    <a href="https://github.com/arifszn/blog.js/blob/main/LICENSE"><img src="https://img.shields.io/github/license/arifszn/blog.js"/></a>
+    <a href="https://twitter.com/intent/tweet?text=Api%20client%20to%20get%20recent%20blog%20posts%20from%20popular%20blogging%20platforms.&url=https://github.com/arifszn/blog.js&hashtags=javascript,opensource,js,webdev,developers">
+      <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fblog.js"/>
     </a>
 </p>
 
@@ -84,7 +84,7 @@ yarn add @arifszn/blog-js
 
 ## Contribute
 
-To contribute, see the [Contributing guide](https://github.com/arifszn/blog-js/blob/main/CONTRIBUTING.md).
+To contribute, see the [Contributing guide](https://github.com/arifszn/blog.js/blob/main/CONTRIBUTING.md).
 
 ## Support
 
@@ -94,4 +94,4 @@ To contribute, see the [Contributing guide](https://github.com/arifszn/blog-js/b
 
 ## License
 
-**Blog-js** is licensed under the [MIT License](https://github.com/arifszn/blog-js/blob/main/LICENSE).
+**blog.js** is licensed under the [MIT License](https://github.com/arifszn/blog.js/blob/main/LICENSE).

@@ -14,10 +14,10 @@
   "author": "arifszn",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/blog-js.git"
+    "url": "https://github.com/arifszn/blog.js.git"
   },
   "bugs": {
-    "url": "https://github.com/arifszn/blog-js/issues"
+    "url": "https://github.com/arifszn/blog.js/issues"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -48,6 +48,7 @@
     "blog js",
     "blog-js",
     "blogjs",
+    "blog.js",
     "blog api",
     "blog article api",
     "blog post api",
