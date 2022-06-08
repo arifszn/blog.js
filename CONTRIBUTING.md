@@ -37,6 +37,20 @@ Install dependencies:
 npm install
 ```
 
+### Testing
+
+Run test:
+
+```sh
+npm run test
+```
+
+Run test coverage:
+
+```sh
+npm run test:coverage
+```
+
 ### Project Structure
 
 ```text
