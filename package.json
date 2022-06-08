@@ -5,6 +5,8 @@
   "main": "./src/index.js",
   "typings": "./types/index.d.ts",
   "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check './**/*.{js,jsx,ts,tsx,css,md,json}'",
