@@ -4,6 +4,9 @@ on:
   pull_request:
     branches: [main]
 
+  push:
+    branches: [main]
+
   workflow_dispatch:
 
 concurrency:
@@ -41,3 +44,12 @@ jobs:
 
       - name: Run tests
         run: npm run test
+
+      - name: Publish in Code Climate
+        if: github.event_name != 'pull_request'
+        uses: paambaati/codeclimate-action@v3.0.0
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+        with:
+          coverageCommand: npm run test:coverage
+          debug: true
