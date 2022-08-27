@@ -32,6 +32,10 @@
     "jest": "^28.1.1",
     "prettier": "^2.6.1"
   },
+  "files": [
+    "src",
+    "types"
+  ],
   "keywords": [
     "medium",
     "dev.to",
