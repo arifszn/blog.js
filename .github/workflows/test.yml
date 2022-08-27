@@ -1,11 +1,11 @@
-name: Lint
+name: Test
 
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  lint:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -15,9 +15,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          cache: 'npm'
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
+      - name: Restore cache
+        uses: actions/cache@v3
         with:
           path: |
             **/node_modules
@@ -31,3 +32,6 @@ jobs:
 
       - name: Run prettier
         run: npm run prettier
+
+      - name: Run tests
+        run: npm run test
