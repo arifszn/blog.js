@@ -13,11 +13,14 @@
       <img src="https://img.shields.io/npm/dt/@arifszn/blog-js"/>
     </a>
     <img src="https://img.shields.io/bundlephobia/min/@arifszn/blog-js"/>
-    <a href="https://codeclimate.com/github/arifszn/blog.js/maintainability">
-      <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
-    </a>
     <a href="https://github.com/arifszn/blog.js/actions/workflows/test.yml">
       <img src="https://github.com/arifszn/blog.js/actions/workflows/test.yml/badge.svg"/>
+    </a>
+    <a href="https://codeclimate.com/github/arifszn/blog.js/test_coverage">
+      <img src="https://api.codeclimate.com/v1/badges/f756d2df72c22b64b943/test_coverage" />
+    </a>
+    <a href="https://codeclimate.com/github/arifszn/blog.js/maintainability">
+      <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
     </a>
     <a href="https://github.com/arifszn/blog.js/issues">
       <img src="https://img.shields.io/github/issues/arifszn/blog.js"/>
