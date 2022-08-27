@@ -16,6 +16,9 @@
     <a href="https://codeclimate.com/github/arifszn/blog.js/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
     </a>
+    <a href="https://github.com/arifszn/blog.js/actions/workflows/test.yml">
+      <img src="https://github.com/arifszn/blog.js/actions/workflows/test.yml/badge.svg"/>
+    </a>
     <a href="https://github.com/arifszn/blog.js/issues">
       <img src="https://img.shields.io/github/issues/arifszn/blog.js"/>
     </a>
