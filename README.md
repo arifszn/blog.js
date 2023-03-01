@@ -54,7 +54,7 @@
   </p>
 </p>
 
-Get recent blog posts from popular blogging platforms by just providing your username and showcase them on your portfolio or blog site.
+**blog.js** is a JavaScript client designed to fetch recent blog posts from popular blogging platforms such as Dev and Medium. By providing a username, users can easily retrieve and showcase their most recent posts on their website or portfolio.
 
 Try it **[online](https://stackblitz.com/edit/blog-js-online?file=index.js)**.
 
