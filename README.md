@@ -56,8 +56,6 @@
 
 **blog.js** is a JavaScript client designed to fetch recent blog posts from popular blogging platforms such as Dev and Medium. By providing a username, users can easily retrieve and showcase their most recent posts on their website or portfolio.
 
-Try it **[online](https://stackblitz.com/edit/blog-js-online?file=index.js)**.
-
 ## Installation
 
 Install via <a href="https://www.npmjs.com/package/@arifszn/blog-js">NPM</a>.
@@ -97,6 +95,8 @@ yarn add @arifszn/blog-js
     console.log(res);
   });
   ```
+
+Try it **[online](https://stackblitz.com/edit/blog-js-online?file=index.js)**.
 
 ## Sample Response
 
