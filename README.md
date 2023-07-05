@@ -30,8 +30,8 @@
     <a href="https://github.com/arifszn/blog.js/stargazers">
       <img src="https://img.shields.io/github/stars/arifszn/blog.js"/>
     </a>
-    <a href="https://github.com/arifszn/blog.js/blob/main/package-lock.json">
-      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/blog.js"/>
+    <a href="https://github.com/arifszn/blog.js/commits/main">
+      <img src="https://img.shields.io/github/last-commit/arifszn/blog.js/main"/>
     </a>
     <a href="https://github.com/arifszn/blog.js/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
