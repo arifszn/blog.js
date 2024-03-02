@@ -31,7 +31,16 @@ const formatMediumPost = (post) => {
         .result.replace('\n', '')
         .trim()
     ),
-    thumbnail: post.thumbnail,
+    thumbnail:
+      post.thumbnail ||
+      extractThumbnailFromMedium(
+        stripHtml(post.content, {
+          ignoreTagsWithTheirContents: ['figure'],
+          stripTogetherWithTheirContents: ['script', 'style', 'xml', 'p'],
+        })
+          .result.replace('\n', '')
+          .trim()
+      ),
     link: post.guid,
     categories: post.categories,
     publishedAt: new Date(post.pubDate),
@@ -68,6 +77,19 @@ const textEllipsis = (str, length = 100, ending = '...') => {
     return str.substring(0, length - ending.length) + ending;
   } else {
     return str;
+  }
+};
+
+const extractThumbnailFromMedium = (html) => {
+  const figureRegex =
+    /<figure[^>]*>(.*?)<img[^>]*src="([^"]*)"[^>]*>.*?<\/figure>/i;
+
+  const match = figureRegex.exec(html);
+
+  if (match && match.length >= 3) {
+    return match[2];
+  } else {
+    return '';
   }
 };
 
