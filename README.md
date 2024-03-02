@@ -30,17 +30,11 @@
     <a href="https://github.com/arifszn/blog.js/stargazers">
       <img src="https://img.shields.io/github/stars/arifszn/blog.js"/>
     </a>
-    <a href="https://github.com/arifszn/blog.js/blob/main/package-lock.json">
-      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/blog.js"/>
-    </a>
     <a href="https://github.com/arifszn/blog.js/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
     </a>
     <a href="https://github.com/arifszn/blog.js/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/arifszn/blog.js"/>
-    </a>
-    <a href="https://www.buymeacoffee.com/arifszn">
-      <img src="https://img.shields.io/badge/sponsor-buy%20me%20a%20coffee-yellow?logo=buymeacoffee"/>
     </a>
     <a href="https://twitter.com/intent/tweet?url=https://github.com/arifszn/blog.js&hashtags=javascript,nodejs,opensource,js,webdev,developers">
       <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fblog.js"/>
