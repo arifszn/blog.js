@@ -5,7 +5,7 @@
     <img src="https://user-images.githubusercontent.com/45073703/227423738-48c622ed-908b-4259-9917-e6a8ae0e0742.png" width="25%">
   </h1>
 
-  <h4 align="center">JavaScript client to get recent blog posts from popular blogging platforms.</h4>
+  <h4 align="center">JavaScript client to get recent blog posts from your blogging platforms.</h4>
 
   <p align="center">
     <a href="https://www.npmjs.com/package/@arifszn/blog-js">
